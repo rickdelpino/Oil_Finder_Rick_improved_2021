@@ -1,0 +1,105 @@
+Well_Name,Area,Status,Reservoir,Currernt Tectonic,Earth,Navigation,Reservoir Thickness ft,Economic_Success,Year
+Well 1,Tia_Juana,Oil,Sandstone,StrikeSlp,Lake,Vertical,250,Success,2020
+Well 2,Tia_Juana,Oil,Sandstone,StrikeSlp,Lake,Vertical,250,Success,2020
+Well 3,Tia_Juana,Oil,Sandstone,StrikeSlp,Lake,Vertical,250,Success,2020
+Well 4,Tia_Juana,Oil,Sandstone,StrikeSlp,Lake,Vertical,250,No Success,2020
+Well 5,Tia_Juana,Oil,Sandstone,StrikeSlp,Lake,Vertical,250,No Success,2020
+Well 6,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Vertical,250,No Success,2020
+Well 7,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Vertical,250,No Success,2020
+Well 8,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Vertical,250,No Success,2020
+Well 9,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Vertical,250,No Success,2020
+Well 10,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Vertical,250,No Success,2020
+Well 11,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 12,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 13,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 14,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 15,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 16,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 17,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 18,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 19,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 20,Tia_Juana,Dry,Sandstone,StrikeSlp,Lake,Horizontal,250,No Success,2020
+Well 21,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 22,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 23,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 24,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 25,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 26,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 27,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 28,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 29,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 30,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 31,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 32,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 33,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 34,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 35,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 36,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 37,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 38,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 39,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 40,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 41,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 42,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 43,Haynesville,Gas,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 44,Haynesville,Oil,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 45,Haynesville,Oil,Shale,Basin,Onshore,Horizontal,70,Success,2020
+Well 46,Haynesville,Oil,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 47,Haynesville,Oil,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 48,Haynesville,Oil,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 49,Haynesville,Oil,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 50,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 51,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 52,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 53,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 54,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 55,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 56,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 57,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 58,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 59,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 60,Haynesville,Dry,Shale,Basin,Onshore,Horizontal,70,No Success,2020
+Well 61,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 62,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 63,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 64,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 65,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 66,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 67,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 68,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 69,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 70,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 71,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 72,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 73,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 74,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,Success,2020
+Well 75,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 76,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 77,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 78,Dhahran,Oil,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 79,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 80,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 81,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 82,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 83,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 84,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 85,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 86,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 87,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 88,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 89,Dhahran,Dry,Carbonates,Anticline,Onshore,Vertical,300,No Success,2020
+Well 90,GOM USA,Oil,SubSalt,SubSalt,Offshore,Inclined,100,Success,2020
+Well 91,GOM USA,Oil,SubSalt,SubSalt,Offshore,Inclined,100,Success,2020
+Well 92,GOM USA,Oil,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 93,GOM USA,Oil,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 94,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 95,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 96,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 97,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 98,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 99,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 100,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 101,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 102,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 103,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020
+Well 104,GOM USA,Dry,SubSalt,SubSalt,Offshore,Inclined,100,No Success,2020

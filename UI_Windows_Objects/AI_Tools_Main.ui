@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AI_Main</class>
+ <widget class="QMainWindow" name="AI_Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>826</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AI Window</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="AI_SeisInterpreter_Tab">
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="AI_Restoration_Tab">
+       <attribute name="title">
+        <string>Restoration Analysis</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="AI_Wells_Tab">
+       <attribute name="title">
+        <string>Wells Success Analysis</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="HZ_Well_Nav_tab">
+       <attribute name="title">
+        <string>HZ Wells AutoNavigator</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="AI_SeisDesign_Tab">
+       <attribute name="title">
+        <string>SeisDesign Optimization</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Seismic Interpreter</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

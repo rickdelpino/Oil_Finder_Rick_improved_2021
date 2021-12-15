@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImportDialog</class>
+ <widget class="QDialog" name="ImportDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>509</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Import Wizard</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Import Functions:</string>
+     </property>
+     <widget class="QPushButton" name="ImportSeisButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>24</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Seismic</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>520</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import XYTV data:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportTopsButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>244</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Tops</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportDipsButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>474</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Dip/Azimuth</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>152</y>
+        <width>321</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Wells Deviation:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportSeisVelButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>520</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Velocities</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>198</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Well Logs:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>290</y>
+        <width>321</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Well Velocities:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportWellsDevButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>152</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Surveys</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportCheckshotsButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>290</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Checkshots/VSP</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>336</y>
+        <width>321</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Seismic Horizons:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportSeisHzButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>336</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Horizons</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportWellLogsButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>198</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Well Logs</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>382</y>
+        <width>321</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Seismic Faults:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>106</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>85</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>85</red>
+            <green>170</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>85</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>85</red>
+            <green>170</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>85</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>240</red>
+            <green>240</green>
+            <blue>240</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Wells:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>474</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Dips data:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>24</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Seismic:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportSeisFaultsButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>382</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Seismic Faults</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>244</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Well Picks:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportPointsButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>428</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Points</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>428</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import XYZ data:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportWellsButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>106</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wells</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>12</x>
+        <y>64</y>
+        <width>281</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import Single trace / VSP:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ImportTraceVSP_Button">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>65</y>
+        <width>132</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Trace / VSP</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="ImportWiz_buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ImportWiz_buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>ImportDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ImportWiz_buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>ImportDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
