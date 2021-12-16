@@ -1,7 +1,20 @@
 # Oil_Finder_Rick_improved_2021
-Open source Windows Application in Python for Geosciences, Artificial Intelligence and Data Sciences - Starting Framework 2021
+Open source Windows Application in Python for Geosciences, Artificial Intelligence and Data Sciences - 1st Framework Design 2020
 
-Hello World!
+A brief explanation about what this aplication can do so far is here: https://www.youtube.com/watch?v=ABjevE5O3go
+
+- 2D Seismic Loading:
+![image](https://user-images.githubusercontent.com/96155532/146419443-cc8ea65d-764e-4c7a-a1ef-aea0526e6e05.png)
+
+- 3D Seismic Loading:
+![image](https://user-images.githubusercontent.com/96155532/146419879-4f0ccef3-6e47-4d4c-a2e0-e08feafd6695.png)
+
+- Data Analysis Plotting:
+![image](https://user-images.githubusercontent.com/96155532/146420822-aa976fe1-eacf-4e21-adce-25febb097c85.png)
+
+
+
+**Hello World!**
 I am Edgar Del Pino, an exploration and production geophysicist/geoscientist which have a lot of projects in mind related with
 geology, geophysics, programming, AI and Data Sciences.
 
@@ -19,19 +32,19 @@ That is why the following are the first focus of this early software version: th
 the purposes of each module, the plotting of the data and the framework design. This is only the begining... 
 
 
-Let's start with the project!:
+**Let's start with the project!:**
 
 - Programming language: Python 3.8 - because it has a lot of documentation and a very active community.
-- Windows IDE (Integrated Development Environment):  Visual Studio Code. It works very well. In Linux, Spyder was my choice.
+- Windows IDE (Integrated Development Environment): Visual Studio Code. It works very well. In Linux, Spyder was my choice.
 - Framework: PyQT5 - For me, it has the best QT designer, and it's extremely easy to use (on Windows).
 - SEGY library: SEGYIO - a very interesting option for reading and manipulation of SEGY files, but I am strugling with its 
                 coordinates management or vectorized applications. It has pros and cons.
 - Python libraries:
-        * numpy: for a very easy array manipulation and best performance.
-        * pandas: for Data Science forms or massive ascii and number manipulation. These are the famous Dataframes.
-        * matplotlib: a library to plot almost everything with python. I am struggling with its PyQT5 integration.
-        * xarray: segyoi has a better integration with it and has matplotlib plotting routines.
-        * csv: for readign CSV  files.
+  - numpy: for a very easy array manipulation and best performance.
+  - pandas: for Data Science forms or massive ascii and number manipulation. These are the famous Dataframes.
+  - matplotlib: a library to plot almost everything with python. I am struggling with its PyQT5 integration.
+  - xarray: segyoi has a better integration with it and has matplotlib plotting routines.
+  - csv: for readign CSV  files.
 
 
 What the software do so far:
